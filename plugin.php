@@ -9,7 +9,7 @@ Author URI: http://www.claytondaley.com/
 */
 
 // Define custom action "delete"
-yourls_add_filter( 'api_action_delete', 'clayton_api_action_list' );
+yourls_add_filter( 'api_action_list', 'clayton_api_action_list' );
 
 /**
  * API function wrapper: List all shorturls that redirect to a URL
